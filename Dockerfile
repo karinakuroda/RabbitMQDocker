@@ -1,5 +1,5 @@
 FROM rabbitmq:3.5.3-management
-MAINTAINER Dimitris Kapanidis dimitris.kapanidis@harbur.io
+MAINTAINER Karina Kuroda karina_kuroda@hotmail.com.br
 
 COPY rabbitmq-cluster /usr/local/bin/
 COPY pre-entrypoint.sh /
