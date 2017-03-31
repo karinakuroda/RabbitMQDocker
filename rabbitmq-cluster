@@ -17,7 +17,7 @@ else
   rabbitmqctl start_app
   
   
- # rabbitmqctl set_policy ha-all "^rabbit\." "{""ha-mode"":""all""}"
+  rabbitmqctl set_policy ha-all "^rabbit\." "{""ha-mode"":""all""}"
 
   # Tail to keep the a foreground process active..
   tail -f /var/log/rabbitmq/*
